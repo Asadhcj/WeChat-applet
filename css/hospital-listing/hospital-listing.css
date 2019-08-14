@@ -1,0 +1,17 @@
+body {
+  background: #f2f2f2;
+}
+body .date {
+  font-size: .3rem;
+  background: #fff;
+}
+body .date .date-title {
+  display: flex;
+  justify-content: space-between;
+  height: .9rem;
+  align-items: center;
+  padding: .3rem;
+}
+body .date .calendarBox {
+  overflow: auto;
+}

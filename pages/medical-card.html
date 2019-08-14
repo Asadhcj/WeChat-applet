@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>诊疗卡</title>
+    <link rel="stylesheet" href="../lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/all/all.css">
+    <link rel="stylesheet" href="../css/medicalCard/medicalCard.css">
+</head>
+
+<body>
+    <div class="tabbar">
+        诊疗卡
+    </div>
+    <div class="medicalCard">
+        <div class="medicalCard-content">
+            <div class="medicalCard-Info-box">
+                <img src="../img/registered/doctor.png" alt="">
+                <div class="medicalCard-Info">
+                    <p>
+                        <span>姓名:</span>
+                        <span>梁丽丽</span>
+                    </p>
+                    <p>
+                        <span>手机号:</span>
+                        <span>152****2363</span>
+                    </p>
+                    <p>
+                        <span>身份证:</span>
+                        <span>4409********5363</span>
+                    </p>
+                </div>
+            </div>
+            <div class="qrcodeBox">
+                <div id="qrcode"></div>
+            </div>
+        </div>
+        <div class="medicalCard-delete">
+            <span class="medicalCard-delete-txt">长按删除卡</span>
+            <span class="medicalCard-delete-num">NO.271813813</span>
+        </div>
+        <div class="deleteEvent">
+            <div class="deleteEvent-tip">删除就诊卡</div>
+        </div>
+    </div>
+    <div class="backBtn addpatient">
+       添加就诊人
+    </div>
+</body>
+<script src="../lib/js/jquery-3.4.1.min.js"></script>
+<script src="../lib/js/jeromeetienne-jquery/jquery.qrcode.min.js"></script>
+<script src="../lib/js/bootstrap.min.js"></script>
+<script src="../js/rem.js"></script>
+<script src="../js/medical-card.js"></script>
+</html>

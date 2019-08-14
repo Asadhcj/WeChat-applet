@@ -1,0 +1,78 @@
+.medicalCard {
+    width: 6.9rem;
+    height: 2.9rem;
+    border-radius: .1rem;
+    background: url(../../img/medicalCard.png);
+    background-size: 7rem 3rem;
+    margin: .2rem auto;
+    color:#fff;
+    margin-bottom: 0;
+    position: relative;
+    .medicalCard-content,.medicalCard-delete{
+        display: flex;
+        justify-content: space-between;
+        .medicalCard-Info-box{
+            padding:.34rem .2rem;
+            display: flex;
+            padding-bottom: 0;
+            img{
+                width: 1rem;
+                height: 1rem;
+             }
+             .medicalCard-Info{
+                padding-left:.2rem;
+             }
+        }
+      
+        .qrcodeBox{
+            width:.6rem;
+            height: .6rem;
+            background: #fff;
+            border-radius: .1rem;
+            margin: .2rem .38rem;
+            text-align: center;
+            #qrcode{
+                width:.6rem;
+                height: .6rem;
+            }
+        }
+    }
+    .medicalCard-delete{
+        width: 100%;
+        padding:0 .2rem;
+        // margin-: .2rem;
+        position: absolute;
+        bottom: .2rem;
+        .medicalCard-delete-txt,.medicalCard-delete-num{
+            
+        }
+        .medicalCard-delete-num{
+
+        }
+    }
+    .deleteEvent{
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left:.04rem;
+        right: 0;
+        background-color:rgba(0, 0, 0, .2);
+        border-radius: .1rem;
+        display: none;
+        .deleteEvent-tip{
+            position: absolute;
+            width: 2.2rem;
+            line-height:.7rem;
+            background:rgba(0, 0, 0, .4);
+            border-radius: .15rem;
+            top:50%;
+            left:50%;
+            margin-left:-1.1rem;
+            margin-top:-.35rem;
+            text-align: center;
+        }
+    }
+}
+.addpatient{
+    margin-top:1.16rem;
+}

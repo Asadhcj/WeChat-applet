@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/all/all.css">
+    <link rel="stylesheet" href="../css/hospital-listing/hospital-listing.css">
+    <link rel="stylesheet" href="../css/data.css">
+    
+</head>
+
+<body>
+    <div class="tabbar">
+        住院清单
+    </div>
+    <div class="date">
+        <div class="date-title">
+            <span id="riqi"></span>
+            <div class="dateShow">
+                <span>其他日期</span>
+                <span id="icon" class="glyphicon glyphicon-chevron-down"></span>
+            </div>
+        </div>
+        <div class="calendar calendarBox">
+            <div class="head">
+                <button class="prevbtn">&lt;</button>
+                <span>
+                    <span id="oMouth">一月</span>
+                    <select id="select1">
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                    </select>
+                </span>
+                <button class="nextbtn">&gt;</button>
+            </div>
+            <div class="datebody">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>日</th>
+                            <th>一</th>
+                            <th>二</th>
+                            <th>三</th>
+                            <th>四</th>
+                            <th>五</th>
+                            <th>六</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="divider"></div>
+    <div class="from">
+        <table class="table table-bordered tableBox">
+            <thead>
+                <tr>
+                    <th>项目名称</th>
+                    <th>单价(元)</th>
+                    <th>数量、单位</th>
+                    <th>金额(元)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>阿司匹林颗粒</td>
+                    <td>12.56</td>
+                    <td>1盒</td>
+                    <td>12.56</td>
+                </tr>
+                <tr>
+                    <td>阿司匹林布洛芬颗粒ss</td>
+                    <td>12.56</td>
+                    <td>1盒</td>
+                    <td>12.56</td>
+                </tr>
+                <tr>
+                    <td>三九胃泰</td>
+                    <td>12.56</td>
+                    <td>1盒</td>
+                    <td>12.56</td>
+                </tr>
+                <tr>
+                    <td>葡萄糖</td>
+                    <td>12.56</td>
+                    <td>1盒</td>
+                    <td>12.56</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="total-amount">
+            <span class="total-amount-txt">总金额：</span>
+            <span class="total-amount-price">3001.00</span>
+        </div>
+    </div>
+    <div class="backBtn">
+        返回
+    </div>
+</body>
+<script src="../lib/js/jquery-3.4.1.min.js"></script>
+<script src="../lib/js/bootstrap.min.js"></script>
+<script src="../js/rem.js"></script>
+<script src="../js/data.js"></script>
+
+</html>

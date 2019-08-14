@@ -1,0 +1,182 @@
+body {
+  background: #f5f5f5;
+}
+body .box {
+  height: 1.48rem;
+  width: 100%;
+  background: #559fd8;
+}
+body .title {
+  width: 100%;
+  height: 2.5rem;
+  background: #559fd8;
+  position: relative;
+}
+body .title .card {
+  width: 7.2rem;
+  background: #fff;
+  height: 3rem;
+  position: absolute;
+  left: .15rem;
+  top: 0rem;
+  border-radius: .15rem;
+  box-shadow: 0 .02rem .03rem #e8e8e8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body .title .card .img {
+  width: 2.66rem;
+  height: 1.68rem;
+  background: url(../../img/home/saturation.png);
+  background-size: 2.66rem 1.68rem;
+}
+body .title .card .txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 2rem;
+}
+body .title .card .txt .addpatient {
+  font-size: .34rem;
+  font-weight: 700;
+}
+body .title .card .txt .buildcard {
+  width: 2.38rem;
+  background: #559fd8;
+  border-radius: .3rem;
+  text-align: center;
+  line-height: .7rem;
+  color: #fff;
+  font-size: .3rem;
+}
+body .body .registered {
+  margin-top: .74rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: .24rem;
+}
+body .body .registered .registered-content {
+  box-shadow: 0 0 .04rem #ccc;
+  width: 3.56rem;
+  height: 1.48rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: .03rem;
+  margin-bottom: .03rem;
+  background: #fff;
+}
+body .body .registered .registered-content:nth-child(1) {
+  border-top-left-radius: .15rem;
+}
+body .body .registered .registered-content:nth-child(2) {
+  border-top-right-radius: .15rem;
+}
+body .body .registered .registered-content:nth-child(3) {
+  border-bottom-left-radius: .15rem;
+}
+body .body .registered .registered-content:nth-child(4) {
+  border-bottom-right-radius: .15rem;
+}
+body .body .registered .registered-content .registered-content-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body .body .registered .registered-content .registered-content-txt .registered-content-txt1 {
+  font-size: .3rem;
+  color: #333;
+  font-weight: 600;
+}
+body .body .registered .registered-content .registered-content-txt .registered-content-txt2 {
+  font-style: italic;
+  font-size: .2rem;
+  color: #999;
+  margin-top: .15rem;
+}
+body .body .registered .registered-content .registered-content-icon {
+  width: .8rem;
+  height: .8rem;
+}
+body .body .query {
+  display: flex;
+  flex-wrap: wrap;
+  height: 3.84rem;
+  width: 7.15rem;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: .15rem;
+  box-shadow: 0 0 .04rem #ccc;
+}
+body .body .query .query-content {
+  width: 33.3333333%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+body .body .query .query-content .query-content-img {
+  width: 1rem;
+  height: 1rem;
+}
+body .body .query .query-content .query-content-txt {
+  font-size: .3rem;
+}
+body .bottombar {
+  height: 1.09rem;
+  width: 100%;
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+}
+body .bottombar .bar {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: .25rem;
+}
+body .bottombar .home .home-icon,
+body .bottombar .no-select .home-icon {
+  display: inline-block;
+  width: .5rem;
+  height: .45rem;
+  background: url(../../img/home/homeSelect.png);
+  background-size: .5rem .45rem;
+}
+body .bottombar .home .home-txt,
+body .bottombar .no-select .home-txt {
+  color: #539dd7;
+}
+body .bottombar .no-select .home-icon {
+  background: url(../../img/home/home.png);
+  background-size: .5rem .45rem;
+}
+body .bottombar .no-select .home-txt {
+  color: #555;
+}
+body .bottombar .user .user-icon,
+body .bottombar .select .user-icon {
+  display: inline-block;
+  width: .5rem;
+  height: .45rem;
+  background: url(../../img/home/my.png);
+  background-size: .5rem .45rem;
+}
+body .bottombar .user .user-txt,
+body .bottombar .select .user-txt {
+  color: #555;
+}
+body .bottombar .select .user-icon {
+  background: url(../../img/home/mySelect.png);
+  background-size: .5rem .45rem;
+}
+body .bottombar .select .user-txt {
+  color: #539dd7;
+}

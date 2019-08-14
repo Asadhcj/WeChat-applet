@@ -1,0 +1,70 @@
+body{
+    background: #f2f2f2;
+    // .checked-patient{
+    //     background:#fff;
+    //     line-height:.9rem;
+    //     color:#666;
+    //     padding-left:.3rem;
+    //     font-size:.27rem;
+    //     border-bottom:1px solid #f2f2f2;
+    // }
+    .patientInfo{
+        background: #fff;
+        font-size: .3rem;
+        height:1.8rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: .3rem;
+        border-bottom:.01rem solid #f2f2f2;
+       .patientInfo-content{
+           display: flex;
+           flex-direction: column;
+           justify-content:space-around;
+        //    align-items: center;
+           .patientName{
+            color:#333;
+           }
+           .patient-cardnum{
+               color:#666;
+               margin-top:.25rem;
+           }
+       }
+       .selectIcon,.selected{
+            display: block;
+            width:.6rem;
+            height:.6rem;
+            background:url(../../img/hospitalService/noCheck.png);
+            background-size: .6rem .6rem;
+       }
+       .selected{
+            background:url(../../img/hospitalService/checked.png);
+            background-size: .6rem .6rem;
+       } 
+    }
+    .addPatient{
+        height: .9rem;
+        background: #fff;
+        display: flex;
+        justify-content: space-between;
+        padding: .3rem; 
+        align-items: center;
+        font-size: .3rem;
+        .addPatient-txt{
+            color:#3c99d3;
+        } 
+        .iconRight{
+            color:#999;
+        } 
+    }
+    .query{
+        width:6rem;
+        background: url(../../img/inputtingTiedcard/inputAfter.png);
+        background-size: 6rem .96rem;
+        line-height: .96rem;
+        text-align: center;
+        margin:2.22rem auto;
+        color:#fff;
+        font-size: .37rem;
+    }
+}

@@ -1,0 +1,92 @@
+.doctorContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .29rem;
+  background: #fff;
+  border-bottom: .01rem solid #f2f2f2;
+}
+.doctorContent .doctor-img img {
+  width: 1.37rem;
+  height: 1.37rem;
+}
+.doctorContent .doctor-Info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: .2rem;
+}
+.doctorContent .doctor-Info .doctor-introduce {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.doctorContent .doctor-Info .doctor-introduce .doctor-introduce-content {
+  font-size: .26rem;
+  color: #666;
+}
+.doctorContent .doctor-Info .doctor-introduce .doctor-introduce-content .doctor-name {
+  font-size: .31rem;
+  font-weight: 500;
+  color: #333;
+}
+.doctorContent .doctor-Info .doctor-introduce .collection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.doctorContent .doctor-Info .doctor-introduce .collection .collection-icon {
+  display: block;
+  width: .28rem;
+  height: .28rem;
+  background: url(../../img/registered/Collectioned.png);
+  background-size: .28rem .28rem;
+}
+.doctorContent .doctor-Info .doctor-introduce .collection .collection-txt {
+  font-size: .16rem;
+  color: #666;
+}
+.doctorContent .doctor-Info .doctor-experience span {
+  font-size: .21rem;
+  color: #999;
+}
+.doctorContent .doctor-Info .doctor-experience span:nth-child(1) {
+  color: #666;
+}
+.doctorContent .doctor-Info .ellips {
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.according {
+  line-height: .79rem;
+  text-align: center;
+  color: #6bbaeb;
+  background: #fff;
+}
+.date {
+  margin-top: .24rem;
+}
+.overdue,
+.appointment {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 .29rem 0 .29rem;
+  background: #fff;
+  line-height: 1rem;
+  border-top: .01rem solid #f2f2f2;
+  color: #999;
+}
+.overdue .overdue-txt,
+.appointment .overdue-txt {
+  padding-right: .4rem;
+}
+.appointment .appointment-time {
+  color: #3c9bd9;
+}
+.appointment .appointment-txt .appointment-mark {
+  color: #3c9bd9;
+}

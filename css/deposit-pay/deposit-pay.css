@@ -1,0 +1,34 @@
+body {
+  background: #fff;
+}
+body .patientList ul li {
+  border-bottom: .01rem solid #f2f2f2;
+}
+body .patientList .paymentAmount {
+  height: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: .01rem solid #f2f2f2;
+}
+body .patientList .paymentAmount .paymentAmount-txt {
+  margin-top: .48rem;
+  font-size: .26rem;
+}
+body .patientList .paymentAmount .paymentAmount-search {
+  margin: .4rem 0 .22rem 0;
+  position: relative;
+}
+body .patientList .paymentAmount .paymentAmount-search .paymentAmount-icon {
+  font-size: .37rem;
+  color: #000;
+}
+body .patientList .paymentAmount .paymentAmount-search .paymentAmount-prompt {
+  position: absolute;
+  color: #f00;
+  top: .4rem;
+  left: .4rem;
+}
+body .subBtn {
+  margin-top: 1.15rem;
+}

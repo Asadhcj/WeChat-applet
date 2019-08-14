@@ -1,0 +1,110 @@
+.doctorContent{
+    // height:1.93rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .29rem;
+    background: #fff;
+    border-bottom: .01rem solid #f2f2f2;
+    .doctor-img{
+        img{
+            width:1.37rem;
+            height:1.37rem;
+        }
+    }
+    .doctor-Info{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       margin-left:.2rem;
+        .doctor-introduce{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .doctor-introduce-content{
+                font-size: .26rem;
+                color:#666;
+                .doctor-name{
+                   font-size: .31rem;
+                   font-weight: 500;
+                   color:#333;
+                }
+                .doctor-department{
+                    
+                }
+                .doctor-position{
+    
+                }
+            }
+            .collection{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .collection-icon{
+                    display: block;
+                    width:.28rem;
+                    height:.28rem;
+                    background:url(../../img/registered/Collectioned.png);
+                    background-size: .28rem .28rem;
+                }
+                .collection-txt{
+                    font-size: .16rem;
+                    color:#666;
+                }
+            }
+        }
+        .doctor-experience{
+            
+           span{
+            font-size:.21rem;
+            color:#999; 
+            &:nth-child(1){
+                color:#666;
+            }
+           }
+        }
+        .ellips{
+            -webkit-line-clamp:2;
+            display: -webkit-box;
+            -webkit-box-orient:vertical;
+            overflow:hidden; 
+            text-overflow: ellipsis;
+           }
+    }
+}
+.according{
+    line-height: .79rem;
+    text-align: center;
+    color:#6bbaeb;
+    background: #fff;
+}
+.date{
+    margin-top:.24rem;
+}
+.overdue,.appointment{
+    display:flex;
+    justify-content: space-between;
+    padding:0 .29rem 0 .29rem;
+    background:#fff;
+    line-height: 1rem;
+    border-top:.01rem solid #f2f2f2;
+    color:#999;
+    .overdue-txt{
+        padding-right: .4rem;
+    }
+}
+.appointment{
+    .appointment-time{
+        color:#3c9bd9;
+    }
+    .appointment-txt{
+       .appointment-mark{
+        color:#3c9bd9;
+       } 
+       .appointment-icon{
+
+       }
+    }
+}
+

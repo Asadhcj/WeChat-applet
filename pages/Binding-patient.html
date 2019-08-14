@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>绑定就诊人</title>
+    <link rel="stylesheet" href="../lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/all/all.css">
+    <link rel="stylesheet" href="../css/binding/binding-patient.css">
+</head>
+
+<body>
+    <div class="tabbar">
+        绑定就诊人
+    </div>
+    <div class="online">
+        <div class="online-buildCard">
+            <span class="buildCard select">在线建卡</span>
+        </div>
+        <div class="online-bindingCard">
+            <span class="bindingCard">在线绑卡</span>
+        </div>
+    </div>
+    <div class="biaodan">
+        <form action="" class="forms">
+            <ul class="build-form">
+                <li>
+                    <label for="">姓名</label>
+                    <input type="text" name="" id="name" placeholder="请输入姓名">
+                    <span class="nameTip"></span>
+                </li>
+                <li>
+                    <label for="">身份证</label>
+                    <input type="text" name="" id="idCard" placeholder="请输入身份证号">
+                    <span class="idTip"></span>
+                </li>
+                <li>
+                    <label for="" class="txt">住址</label>
+                    <input class="holder"  type="text" name="" id="adress" placeholder="请输入住址">
+                    <span class="adressTip"></span>
+                </li>
+                <li class="telphone">
+                    <label for="">手机号码</label>
+                    <input type="tel" name="" id="phone" placeholder="请输入手机号码">
+                    <div class="divider"></div>
+                    <span class="phoneTip"></span>
+                </li>
+            </ul>
+        </form>
+        <div class="tip">
+            <p>温馨提示</p>
+            <p>1.有医院就诊卡选择在线绑卡，若无选择在线建卡。</p>
+            <p>2.请正确填写就诊人信息，医院建档信息匹配一致则绑定成功。</p>
+        </div>
+        <div class="subBtn">
+            <span>立即绑定</span>
+            <button></button>
+        </div>
+    </div>
+</body>
+<script src="../lib/js/jquery-3.4.1.min.js"></script>
+<script src="../lib/js/bootstrap.min.js"></script>
+<script src="../js/rem.js"></script>
+<script src="../js/binding-patient.js"></script>
+
+</html>

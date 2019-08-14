@@ -1,0 +1,109 @@
+body {
+  background: #f2f2f2;
+  font-size: .3rem;
+}
+body .checked-patient {
+  background: #fff;
+  line-height: .9rem;
+  color: #666;
+  padding-left: .3rem;
+  font-size: .27rem;
+  border-bottom: .01rem solid #f2f2f2;
+}
+body .patientInfo {
+  background: #fff;
+  font-size: .3rem;
+  height: 1.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .3rem;
+  border-bottom: .01rem solid #f2f2f2;
+}
+body .patientInfo .patientInfo-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+body .patientInfo .patientInfo-content .patientName {
+  color: #333;
+}
+body .patientInfo .patientInfo-content .patient-cardnum {
+  color: #666;
+  margin-top: .25rem;
+}
+body .patientInfo .selectIcon,
+body .patientInfo .selected {
+  display: block;
+  width: .6rem;
+  height: .6rem;
+  background: url(../../img/hospitalService/noCheck.png);
+  background-size: .6rem .6rem;
+}
+body .patientInfo .selected {
+  background: url(../../img/hospitalService/checked.png);
+  background-size: .6rem .6rem;
+}
+body .addPatient {
+  height: .9rem;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: .3rem;
+  align-items: center;
+  font-size: .3rem;
+}
+body .addPatient .addPatient-txt {
+  color: #3c99d3;
+}
+body .addPatient .iconRight {
+  color: #999;
+}
+body .searchPatient {
+  background: #fff;
+  margin-top: .2rem;
+  line-height: 1rem;
+  position: relative;
+}
+body .searchPatient .searchPatient-txt {
+  color: #333;
+  margin-left: .3rem;
+}
+body .searchPatient .searchPatient-input {
+  margin-left: .3rem;
+}
+body .searchPatient .searchPatient-prompt {
+  position: absolute;
+  color: #f00;
+  top: .4rem;
+  left: 2.2rem;
+  font-size: .26rem;
+}
+body .searchHistory {
+  color: #999;
+  margin-top: .18rem;
+  padding-left: .3rem;
+  display: flex;
+}
+body .searchHistory .searchHistory-content {
+  line-height: .36rem;
+  width: 2.3rem;
+  background: #d2d2d2;
+  font-size: .2rem;
+  border-radius: .1rem;
+  color: #999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .04rem;
+}
+body .query {
+  width: 6rem;
+  background: url(../../img/inputtingTiedcard/inputAfter.png);
+  background-size: 6rem .96rem;
+  line-height: .96rem;
+  text-align: center;
+  margin: 2.22rem auto;
+  color: #fff;
+  font-size: .37rem;
+}

@@ -1,0 +1,73 @@
+.reportSource{
+    display: flex;
+    justify-content: space-between;
+    padding:.2rem;
+    color:#999;
+    .report-time{
+
+    }
+    .report-adress{
+
+    }
+}
+.report{
+    width:7.09rem;
+    background:#fff;
+    margin: 0 auto;
+    .report-title{
+        line-height:.87rem;
+        background: url(../../img/report-query/rounded-rectangle.png);
+        background-size: 7.09rem .87rem;
+        color:#fff;
+        text-align: center;
+        font-size: .33rem;
+    }
+    .report-content{
+        width:100%;
+        thead{
+            line-height:.91rem;
+            th{
+                text-align: center;
+            }
+        }
+        tbody{
+            tr{
+                padding:.24rem .2rem .24rem .2rem ;
+                // text-align: center;
+                td{
+                    width:27%;
+                    text-align: center;
+                    &:nth-child(1){
+                         width:46%;
+                         padding:.24rem 0 .24rem .2rem ;
+                         text-align: left;
+                    }
+                    &:nth-child(2){
+                       span{
+                           &:last-child{
+                            display:inline-block;
+                            width:.2rem;
+                            height:.22rem;
+                           }
+                       }
+                   }
+                    .litre{
+                        background:url(../../img/report-query/top.png);
+                        background-size:.2rem .22rem;
+                    }
+                    .drop{
+                        background:url(../../img/report-query/bottom.png);
+                        background-size:.2rem .22rem;
+                    }
+                    .warning{
+                        display:inline-block;
+                        width:.3rem;
+                        height:.3rem;
+                        background:url(../../img/report-query/warning.png);
+                        background-size:.3rem .3rem;
+                    }
+                }
+            }
+        }
+    }
+}

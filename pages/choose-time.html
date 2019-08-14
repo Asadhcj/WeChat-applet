@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>选择时间</title>
+    <link rel="stylesheet" href="../lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/all/all.css">
+    <link rel="stylesheet" href="../css/choose-time/choose-time.css">
+    <link rel="stylesheet" href="../css/data.css">
+    <link rel="stylesheet" href="../css/hospital-listing/hospital-listing.css">
+</head>
+<body>
+    <div class="tabbar">
+        选择时间
+    </div>
+    <div class="doctorContent">
+        <div class="doctor-img">
+            <img src="../img/registered/doctor.png" alt="">
+        </div>
+        <div class="doctor-Info">
+            <div class="doctor-introduce">
+                <div class="doctor-introduce-content">
+                    <span class="doctor-name">林厚帮</span>
+                    <span class="doctor-department">皮肤科</span>
+                    <span class="doctor-position">副主任医师</span>
+                </div>
+                <div class="collection">
+                    <span class="collection-icon"></span>
+                    <span class="collection-txt">已收藏</span>
+                </div>
+            </div>
+            <div class="doctor-experience ellips">
+                <span>介绍：</span>
+                <span>广东省首批名中医师承项目学术继承人。毕业于广西中医要大学中医学专业称道广东省就诊还研讨会就无法就问你就无法忘记</span>
+            </div>
+        </div>
+    </div>
+    <div class="according">
+        展开
+    </div>
+    <div class="date">
+        <div class="date-title">
+            <span id="riqi"></span>
+            <div class="dateShow">
+                <span>其他日期</span>
+                <span id="icon" class="glyphicon glyphicon-menu-down"></span>
+            </div>
+        </div>
+        <div class="calendar calendarBox">
+            <div class="head">
+                <button class="prevbtn">&lt;</button>
+                <span>
+                    <span id="oMouth">一月</span>
+                    <select id="select1">
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                    </select>
+                </span>
+                <button class="nextbtn">&gt;</button>
+            </div>
+            <div class="datebody">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>日</th>
+                            <th>一</th>
+                            <th>二</th>
+                            <th>三</th>
+                            <th>四</th>
+                            <th>五</th>
+                            <th>六</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="overdue">
+        <span class="overdue-time">上午08:30-12:00</span>
+        <span class="overdue-txt">过期</span>
+    </div>
+    <div class="appointment">
+        <span class="appointment-time">下午14:00-17:00</span>
+        <div class="appointment-txt">
+            <span class="appointment-mark">可预约</span>
+            <span class="appointment-icon glyphicon glyphicon-menu-right"></span>
+        </div>
+    </div>
+</body>
+<script src="../lib/js/jquery-3.4.1.min.js"></script>
+<script src="../lib/js/bootstrap.min.js"></script>
+<script src="../js/rem.js"></script>
+<script src="../js/data.js"></script>
+<script src="../js/choose-time.js"></script>
+</html>

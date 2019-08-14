@@ -1,0 +1,32 @@
+.date {
+  background: #fff;
+}
+.date .date-title {
+  line-height: .97rem;
+  margin-left: .3rem;
+  color: #666;
+}
+.date .calendar .datebody table {
+  font-size: .22rem;
+  color: #333;
+}
+.date .calendar .datebody table thead {
+  height: .68rem;
+  border-top: .01rem solid #f2f2f2;
+}
+.date .hidd {
+  height: 1.4rem;
+  overflow: hidden;
+}
+.updownBtn {
+  line-height: .87rem;
+  text-align: center;
+  background: #fff;
+  border-top: .01rem solid #f2f2f2;
+}
+.updownBtn span {
+  color: #999;
+}
+.updownBtn span:nth-child(1) {
+  color: #666;
+}

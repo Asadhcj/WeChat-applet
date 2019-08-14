@@ -1,0 +1,49 @@
+.warmPrompt {
+  background: rgba(0, 0, 0, 0.15);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+.warmPrompt .warmPrompt-bg {
+  width: 5.94rem;
+  height: 7.74rem;
+  margin: 2.5rem auto;
+  background: url(../../img/Outpatient-payment/bounced.png);
+  background-size: 5.94rem 7.74rem;
+  position: relative;
+}
+.warmPrompt .warmPrompt-bg .warmPrompt-content {
+  width: 4.82rem;
+  height: 4.47rem;
+  margin: 0 auto;
+  padding-top: 2.01rem;
+  padding-left: .45rem;
+}
+.warmPrompt .warmPrompt-bg .warmPrompt-content li {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: .1rem;
+}
+.warmPrompt .warmPrompt-bg .warmPrompt-content li img {
+  width: .05rem;
+  height: .05rem;
+  margin-top: .15rem;
+}
+.warmPrompt .warmPrompt-bg .warmPrompt-content li span {
+  display: block;
+  margin-left: .2rem;
+  width: 3.71rem;
+}
+.warmPrompt .warmPrompt-bg .warmPrompt-btn {
+  position: absolute;
+  bottom: .3rem;
+  width: 4.76rem;
+  line-height: .78rem;
+  background: url(../../img/Outpatient-payment/click.png);
+  background-size: 4.76rem .78rem ;
+  left: .57rem;
+  color: #fff;
+  text-align: center;
+}

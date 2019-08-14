@@ -1,0 +1,22 @@
+(function($){
+    $(function(){
+        $(".selectIcon").on("click",function(){
+            if($(this).hasClass("selected")){
+                $(this).removeClass("selected")
+            }else{
+                $(this).addClass("selected")
+            }
+        })
+        $(".query").on("click",function(){
+            if(!$(".searchPatient-input").val()){
+                clearTimeout(timer)
+                $(".searchPatient-prompt").text("!卡号不能为空").fadeIn(500)
+                var timer=setTimeout(function(){
+                    $(".searchPatient-prompt").fadeOut(500)
+                    clearTimeout(timer)
+                },2000)
+                return
+            }
+        })
+    })
+})(jQuery)

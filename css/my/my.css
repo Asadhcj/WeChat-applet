@@ -1,0 +1,157 @@
+.Headportrait {
+  height: 2.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #6ab9ea;
+}
+.Headportrait .Headportrait-img img {
+  width: 1.57rem;
+  height: 1.57rem;
+}
+.Headportrait .Headportrait-name {
+  color: #fff;
+  margin-top: .26rem;
+}
+.Classification {
+  height: .7rem;
+  display: flex;
+  align-items: center;
+  margin-left: .13rem;
+  color: #333;
+}
+.Classification .Classification-icon {
+  display: inline-block;
+  width: .06rem;
+  height: .29rem;
+  background: #6ab9ea;
+}
+.Classification .Classification-txt {
+  font-size: .24rem;
+  margin-left: .09rem;
+}
+.centerContent {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+}
+.centerContent li {
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  background: #fff;
+}
+.centerContent li:nth-child(1),
+.centerContent li:nth-child(3) {
+  border-right: .01rem solid #f2f2f2;
+}
+.centerContent li:nth-child(1),
+.centerContent li:nth-child(2) {
+  border-bottom: .01rem solid #f2f2f2;
+}
+.centerContent li span:nth-child(1) {
+  display: block;
+  width: .6rem;
+  height: .7rem;
+  margin-left: .67rem;
+}
+.centerContent li span:nth-child(2) {
+  margin-left: .36rem;
+}
+.centerContent li .registered {
+  background: url(../../img/my/myRegistered.png);
+  background-size: .6rem .7rem;
+}
+.centerContent li .bill {
+  background: url(../../img/my/myBill.png);
+  background-size: .6rem .7rem;
+}
+.centerContent li .inspectionReport {
+  background: url(../../img/my/Inspection-report.png);
+  background-size: .6rem .7rem;
+}
+.centerContent li .patientCard {
+  background: url(../../img/my/mypatientCard.png);
+  background-size: .6rem .7rem;
+}
+.listingbox {
+  padding: 0 .46rem 0 .46rem;
+  background: #fff;
+}
+.listingbox .listing {
+  height: 1rem ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: .01rem solid #f2f2f2;
+}
+.listingbox .listing .listing-content {
+  display: flex;
+  align-items: center;
+}
+.listingbox .listing .listing-content .listing-content-icon {
+  display: block;
+  width: .38rem;
+  height: .38rem;
+  background: url(../../img/my/listing.png);
+  background-size: .38rem .38rem;
+}
+.listingbox .listing .listing-content .listing-content-txt {
+  margin-left: .18rem;
+}
+.listingbox .listing .right-icon {
+  color: #999;
+}
+.bottombar {
+  height: 1.09rem;
+  width: 100%;
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+}
+.bottombar .bar {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: .25rem;
+}
+.bottombar .home .home-icon {
+  display: block;
+  width: .5rem;
+  height: .45rem;
+  background: url(../../img/home/homeSelect.png);
+  background-size: .5rem .45rem;
+}
+.bottombar .home .home-txt {
+  color: #539dd7;
+}
+.bottombar .no-select .home-icon {
+  background: url(../../img/home/home.png);
+  background-size: .5rem .45rem;
+}
+.bottombar .no-select .home-txt {
+  color: #555;
+}
+.bottombar .user .user-icon {
+  display: inline-block;
+  width: .5rem;
+  height: .45rem;
+  background: url(../../img/home/my.png);
+  background-size: .5rem .45rem;
+}
+.bottombar .user .user-txt {
+  color: #555;
+}
+.bottombar .select .user-icon {
+  background: url(../../img/home/mySelect.png);
+  background-size: .5rem .45rem;
+}
+.bottombar .select .user-txt {
+  color: #539dd7;
+}

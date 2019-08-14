@@ -1,0 +1,135 @@
+body {
+    background: #fff;
+
+    .Classification-department {
+        border-top: .01rem solid #f0f0f0;
+        display: flex;
+        .Classification-department-left,  .Classification-department-right{
+            background:#f5f5f5;
+            width:50%;
+            height:10.83rem;
+            overflow: auto;
+            ul {
+                
+                li {
+                    display: flex;
+                    align-items: center;
+                    height: 1rem;
+                    padding-left:.4rem;
+                    .departmentIcon {
+                        display: block;
+                        width: .52rem;
+                        height: .56rem;
+                        background: url(../../img/registered/general-outpatient.png);
+                        background-size: .52rem .56rem;
+                    }
+
+                    .departmentTxt {
+                        margin-left: .23rem;
+                    }
+
+                    &:nth-child(1) {
+                        .departmentIcon {
+                            background: url(../../img/registered//Internal-medicine.png);
+                            background-size: .52rem .56rem;
+                        }
+
+                    }
+
+                    &:nth-child(2) {
+                        .departmentIcon {
+                            background: url(../../img/registered/surgical.png);
+                            background-size: .52rem .56rem;
+                        }
+
+                    }
+
+                    &:nth-child(3) {
+                        .departmentIcon {
+                            background: url(../../img/registered/og-department.png);
+                            background-size: .52rem .56rem;
+                        }
+
+                    }
+
+                    &:nth-child(4) {
+                        .departmentIcon {
+                            background: url(../../img/registered/pediatric.png);
+                            background-size: .52rem .56rem;
+                        }
+
+                    }
+
+                    &:nth-child(5) {
+                        .departmentIcon {
+                            background: url(../../img/registered/ent.png);
+                            background-size: .52rem .56rem;
+                        }
+
+                    }
+
+                    &:nth-child(6) {
+                        .departmentIcon {
+                            background: url(../../img/registered/dermatology.png);
+                            background-size: .52rem .56rem;
+                        }
+
+                    }
+
+                    &:nth-child(7) {
+                        .departmentIcon {
+                            background: url(../../img/registered/general-outpatient.png);
+                            background-size: .52rem .56rem;
+                        }
+
+                    }
+
+                    &:nth-child(8) {
+                        .departmentIcon {
+                            background: url(../../img/registered/general-outpatient.png);
+                            background-size: .52rem .56rem;
+                        }
+
+                    }
+
+                    &:nth-child(9) {
+                        .departmentIcon {
+                            background: url(../../img/registered/eye.png);
+                            background-size: .52rem .56rem;
+                        }
+
+                    }
+
+                    &:nth-child(10) {
+                        .departmentIcon {
+                            background: url(../../img/registered/general-outpatient.png);
+                            background-size: .52rem .56rem;
+                        }
+
+                    }
+                }
+                .selected{
+                    background:#fff;
+                    color:#539dd7;
+                    .selectIcon{
+                        width:.35rem;
+                        height:.22rem;
+                        background:url(../../img/registered/checkPaystyle.png);
+                        background-size: .35rem .22rem;
+                    }
+                }
+            }
+        }
+        .Classification-department-right{
+            background:#fff;
+            ul{
+                li{
+                    border-bottom: .01rem solid #f0f0f0;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 0 .4rem 0 .4rem;
+                }
+            }
+        }
+    }
+}

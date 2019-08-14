@@ -1,0 +1,53 @@
+body {
+  background: #fff;
+}
+body .doctorInfo {
+  display: flex;
+  justify-content: space-around;
+  height: 2.12rem;
+  align-items: center;
+  border-top: .01rem solid #f2f2f2;
+}
+body .doctorInfo .doctor-img {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+body .doctorInfo .doctor-txt {
+  margin-left: -0.6rem;
+}
+body .doctorInfo .doctor-txt .doctor-introduce {
+  color: #666;
+}
+body .doctorInfo .doctor-txt .doctor-introduce .doctor-name {
+  font-size: .33rem;
+  color: #333;
+  font-weight: 600;
+}
+body .doctorInfo .doctor-txt .doctor-registration {
+  margin-top: .1rem;
+}
+body .doctorInfo .doctor-txt .doctor-Source {
+  color: #ee1f09;
+}
+body .doctorInfo .collection {
+  width: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .doctorInfo .collection .collection-icon {
+  display: block;
+  width: .28rem;
+  height: .28rem;
+  background: url(../../img/registered/nocollection.png);
+  background-size: .28rem .28rem;
+}
+body .doctorInfo .collection .collectioned {
+  background: url(../../img/registered/Collectioned.png);
+  background-size: .28rem .28rem;
+}
+body .doctorInfo .collection .collection-txt {
+  color: #999;
+  font-size: .16rem;
+}

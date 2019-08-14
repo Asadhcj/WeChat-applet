@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>温馨提示</title>
+    <link rel="stylesheet" href="../lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/all/all.css">
+    <link rel="stylesheet" href="../css/warm-prompt/warm-prompt.css">
+</head>
+
+<body>
+    <div class="tabbar">
+        温馨提示
+    </div>
+    <div class="warmPrompt">
+        <div class="warmPrompt-bg">
+            <ul class="warmPrompt-content">
+                <li>
+                    <img src="../img/Outpatient-payment/ellipse.png" alt="">
+                    <span>缴费提供微信支付;</span>
+                </li>
+                <li>
+                    <img src="../img/Outpatient-payment/ellipse.png" alt="">
+                    <span>处方当天内缴费有效;</span>
+                </li>
+                <li>
+                    <img src="../img/Outpatient-payment/ellipse.png" alt="">
+                    <span>
+                        目前微信支付只提供自费缴费,如需医保、公费记账请移步到门诊楼一楼人工缴费窗口缴费;
+                    </span>
+                </li>
+                <li>
+                    <img src="../img/Outpatient-payment/ellipse.png" alt="">
+                    <span>
+                        如需打印发票或办理退费请凭微信缴费[电子凭条]到门诊一楼人工收费窗口打印;
+                    </span>
+                </li>
+            </ul>
+            <div class="warmPrompt-btn">已阅读并知晓</div>
+        </div>
+    </div>
+</body>
+<script src="../lib/js/jquery-3.4.1.min.js"></script>
+<script src="../lib/js/bootstrap.min.js"></script>
+<script src="../js/rem.js"></script>
+<script>
+    $(function(){
+        $(".warmPrompt-btn").on("click",function(){
+            $(".warmPrompt").hide()
+        })
+    })
+</script>
+</html>

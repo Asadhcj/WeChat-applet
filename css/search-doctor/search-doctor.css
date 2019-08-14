@@ -1,0 +1,39 @@
+.searchbg {
+  height: 1.05rem;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchbg .searchbox {
+  margin: 0;
+}
+ul {
+  background: #fff;
+  margin-top: .1rem;
+}
+ul li {
+  display: flex;
+  line-height: .96rem;
+  justify-content: space-between;
+  padding: 0 .3rem 0 .3rem;
+  border-bottom: .01rem solid #f2f2f2;
+}
+ul .searchContent .doctor-introduce .doctor-name {
+  font-size: .32rem;
+  font-weight: 500;
+  color: #333;
+}
+ul .searchContent .doctor-introduce .doctor-department {
+  font-size: .27rem;
+  color: #666;
+  margin-left: .17rem;
+}
+ul .searchContent .doctor-position {
+  color: #666;
+}
+ul .department span {
+  font-size: .32rem;
+  font-weight: 500;
+  color: #333;
+}

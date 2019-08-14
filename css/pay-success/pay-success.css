@@ -1,0 +1,28 @@
+.pageContent {
+  height: 3.79rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+.pageContent .pageContent-img {
+  width: 1.56rem;
+  height: 1.56rem;
+  background: url(../../img/Outpatient-payment/icon.png);
+  background-size: 1.56rem 1.56rem;
+}
+.pageContent .pageContent-txt {
+  margin-left: .24rem;
+}
+.pageContent .pageContent-txt .success-tip {
+  color: #539dd7;
+}
+.pageContent .pageContent-txt .order-info {
+  color: #919191;
+}
+.pageContent .pageContent-txt .order-info .order-num .num {
+  color: #1a1a1a;
+}
+.pageContent .pageContent-txt .order-info .order-price .price {
+  color: #539dd7;
+}

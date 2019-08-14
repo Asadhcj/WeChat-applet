@@ -1,0 +1,66 @@
+.calendar { 
+	position:relative;
+	font-size:.3rem;
+}
+.calendar  .head {
+	padding:.1rem .1rem;
+	text-align:center;
+	position:relative;
+}
+.calendar  .head button {
+	width:.3rem;
+	height:.3rem;
+	line-height:.3rem;
+	text-align:center;
+	background:#fff;
+	/* border:1px solid #ccc;
+	border-radius:3px; */
+}
+.calendar .head button.prevbtn {
+	position:absolute;
+	left:.3rem;
+}
+.calendar  .head button.nextbtn {
+	position:absolute;
+	right:.3rem;
+}
+.calendar  .head select {
+	height:.3rem;
+	width:1rem;
+	text-align:center;
+}
+.calendar .head select option {
+	text-align:center;
+}
+.calendar  .datebody table {
+	width:100%;
+}
+.calendar .datebody table td,.calendar .datebody table th {
+    text-align:center;
+    height:.7rem;
+    /* color:#333; */
+	/* border:1px solid #ccc; */
+}
+.calendar .datebody table th {
+    border-bottom: .01rem solid #f2f2f2;
+}
+.calendar .datebody table tbody td{
+	width:.58rem;
+	height: .64rem;
+}	
+.calendar .new,.old {
+	color:#ccc;
+}
+.calendar .active {
+	/* border:.01rem solid #68b7e8; */
+	color:#68b7e8;
+	/* background: #ccc; */
+	width:.58rem;
+	height: .63rem;
+}
+.calendar  .on {
+	
+	background:url(../img/registered/checkBox.png) center center no-repeat;
+	/* color:#fff; */
+	background-size:.58rem .63rem;
+}

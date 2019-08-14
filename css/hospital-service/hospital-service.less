@@ -1,0 +1,75 @@
+.hospitalInfo{
+    padding: 0 .3rem;
+    background: #fff;
+    height:2.35rem;
+    .hospitalInfo-title{ 
+        color:#539dd7;
+        line-height: .9rem;
+    }
+    .hospitalInfo-content{
+        color:#666;
+        display: flex;
+        justify-content: space-between;
+        .hospitalInfo-left,.hospitalInfo-right{
+            display: flex;
+            flex-direction: column;
+            span{
+                &:last-child{
+                    line-height: .9rem;
+                }
+            }
+        }
+        .acceptingGold-right{
+            span{
+                &:last-child{
+                    line-height: .4rem;
+                    // text-align: center;
+                }
+            }
+        }
+    }
+}
+.acceptingGold{
+    border-top: .01rem solid #f2f2f2;
+}
+.hospitalService{
+    background: #fff;
+    padding: .3rem;
+    padding-top:0;
+    margin-top:.2rem;
+    .hospitalService-title{
+        line-height: .85rem;
+    }
+    ul{
+        display: flex;
+        justify-content: space-around;
+        li{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            span{
+                color: #666;
+                &:first-child{
+                    display: block;
+                    width:.95rem;
+                    height:.95rem;
+                    margin-bottom: .15rem;
+                }
+            }
+           .payIcon{
+                background: url(../../img/hospitalService/DepositPay.png);
+                background-size: .95rem .95rem;
+
+           }
+           .recordIcon{
+                background: url(../../img/hospitalService/record.png);
+                background-size: .95rem .95rem;
+           }
+           .listingIcon{
+                background: url(../../img/hospitalService/listing.png);
+                background-size: .95rem .95rem;
+           }
+        }
+    }
+}
