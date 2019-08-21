@@ -4,15 +4,16 @@ body {
 body .box {
   height: 1.48rem;
   width: 100%;
-  background: #559fd8;
+  background: #67b3e5;
 }
 body .title {
   width: 100%;
   height: 2.5rem;
-  background: #559fd8;
+  background: #67b3e5;
   position: relative;
 }
-body .title .card {
+body .title .card,
+body .title .card2 {
   width: 7.2rem;
   background: #fff;
   height: 3rem;
@@ -25,31 +26,98 @@ body .title .card {
   justify-content: space-around;
   align-items: center;
 }
-body .title .card .img {
+body .title .card .img,
+body .title .card2 .img {
   width: 2.66rem;
   height: 1.68rem;
   background: url(../../img/home/saturation.png);
   background-size: 2.66rem 1.68rem;
 }
-body .title .card .txt {
+body .title .card .txt,
+body .title .card2 .txt {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   height: 2rem;
 }
-body .title .card .txt .addpatient {
+body .title .card .txt .addpatient,
+body .title .card2 .txt .addpatient {
   font-size: .34rem;
   font-weight: 700;
 }
-body .title .card .txt .buildcard {
+body .title .card .txt .buildcard,
+body .title .card2 .txt .buildcard {
   width: 2.38rem;
-  background: #559fd8;
+  background: #67b3e5;
   border-radius: .3rem;
   text-align: center;
   line-height: .7rem;
   color: #fff;
   font-size: .3rem;
+}
+body .title .card2 {
+  display: initial;
+  padding: .3rem .42rem 0 .42rem;
+  color: #000;
+}
+body .title .card2 .cardName {
+  display: flex;
+  align-items: center;
+}
+body .title .card2 .cardName .cardName-txt {
+  font-size: .32rem;
+}
+body .title .card2 .cardName .cardName-target {
+  display: inline-block;
+  width: .7rem;
+  height: .32rem;
+  background: url(../../img/home/switch.jpg);
+  background-size: .7rem .32rem;
+  margin-left: .22rem;
+}
+body .title .card2 .cardNum {
+  font-size: .23rem;
+}
+body .title .card2 .barcode {
+  width: 6.26rem;
+  height: 1.07rem;
+  margin: 0 auto;
+}
+body .title .card2 .barcode .barcodeImg {
+  height: 1.07rem;
+  margin-left: -0.4rem;
+}
+body .title .card2 .barcode .wid {
+  width: .4rem;
+}
+body .title .card2 .qrcode {
+  margin-top: .15rem;
+  display: flex ;
+  justify-content: space-between;
+  align-items: center;
+}
+body .title .card2 .qrcode .qrcodecontent {
+  display: flex;
+  align-items: center;
+}
+body .title .card2 .qrcode .qrcodecontent .qrcode-icon {
+  display: inline-block;
+  width: .42rem;
+  height: .42rem;
+  background: url(../../img/home/requcode.jpg);
+  background-size: .42rem .42rem;
+}
+body .title .card2 .qrcode .qrcodecontent .qrcode-txt {
+  color: #67b3e5;
+  margin-left: .1rem;
+}
+body .title .card2 .qrcode .qrcode-right {
+  display: inline-block;
+  width: .2rem;
+  height: .3rem;
+  background: url(../../img/home/rightjiantou.jpg);
+  background-size: .2rem .3rem;
 }
 body .body .registered {
   margin-top: .74rem;
@@ -152,7 +220,7 @@ body .bottombar .no-select .home-icon {
 }
 body .bottombar .home .home-txt,
 body .bottombar .no-select .home-txt {
-  color: #539dd7;
+  color: #67b3e5;
 }
 body .bottombar .no-select .home-icon {
   background: url(../../img/home/home.png);
@@ -178,5 +246,5 @@ body .bottombar .select .user-icon {
   background-size: .5rem .45rem;
 }
 body .bottombar .select .user-txt {
-  color: #539dd7;
+  color: #67b3e5;
 }

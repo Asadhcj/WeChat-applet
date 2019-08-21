@@ -71,6 +71,23 @@
   margin-top: -0.35rem;
   text-align: center;
 }
+.qrcodeBg {
+  background: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: none;
+}
+.qrcodeBg .qrcodecontent {
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -2rem;
+  margin-top: -2rem;
+}
 .addpatient {
   margin-top: 1.16rem;
 }

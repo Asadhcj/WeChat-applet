@@ -13,18 +13,42 @@
 
 <body>
     <div class="box">
-
+      
     </div>
-    <div class="title">
-        <div class="card">
-            <div class="img">
+    <div class="title" >
+        <div class="card2">
+            <div class="cardName">
+                <span class="cardName-txt">某某某</span>
+                <span class="cardName-target"></span>
             </div>
-            <div class="txt">
-                <span class="addpatient">您还未添加就诊人</span>
-                <span class="buildcard">建档/绑卡</span>
+            <div class="cardNum">
+                <span >NO:</span>
+                <span class="barcodenum">324123432543</span>
+            </div>
+            <div class="barcode">
+                <div id="bcTarget" class="barcodeImg">
+                </div>
+                <div style="display: none" class="wid"></div>
+            </div>
+            <div class="qrcode">
+                <div class="qrcodecontent">
+                    <span class="qrcode-icon"></span>
+                    <span class="qrcode-txt">点击查看二维码</span>
+                </div>
+                <div class="qrcode-right"></div>
             </div>
         </div>
     </div>
+    <div class="title" style="display: none">
+            <div class="card">
+                <div class="img">
+                </div>
+                <div class="txt">
+                    <span class="addpatient">您还未添加就诊人</span>
+                    <span class="buildcard">建档/绑卡</span>
+                </div>
+            </div>
+        </div>
     <div class="body">
         <ul class="registered">
             <li class="registered-content">
@@ -95,6 +119,8 @@
     </div>
 </body>
 <script src="../lib/js/jquery-3.4.1.min.js"></script>
+<script src="../lib/js/jquery-barcode.js"></script>
+<script src="../lib/js/jeromeetienne-jquery/jquery.qrcode.min.js"></script>
 <script src="../js/rem.js"></script>
 <script src="../js/home.js"></script>
 </html>

@@ -1,19 +1,13 @@
 body{
     background:#fff;
-    .image{
-        text-align: center;
-        margin-top:1.22rem;
-        img{
-            width:1.15rem;
-            height:1.15rem;
-        }
-    }
-    
     .barcode{
         width:4.34rem;
         height:1.47rem;
-        margin:0 auto;
-        margin-top:.81rem;
+        position: absolute;
+        left:50%;
+        top:50%;
+        margin-left:-2.17rem;
+        margin-top:-.73rem;
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -22,13 +16,39 @@ body{
         .barcodeImg {
             // width:4.34rem;
             // height:1.47rem;
-           margin-bottom: .36rem;
+            overflow: initial !important;
+            margin-bottom: .36rem;
         }
     }
+    
     .wid{
         width:.2rem;
         display: none;
     }
+    .barcode2{
+        position: absolute;
+        // position: relative;
+        top:0;
+        bottom:0;
+        width:100%;
+        background:#fff;
+        .bcTarget2{
+
+        }
+        .barcodeImg2{
+            transform: rotate(90deg);
+            width:.6rem;
+            height:3rem;
+            // background:#f00;
+            position: absolute;
+            top:50%;
+            // left:50%;
+            margin:0 auto; 
+            margin-top:-1.5rem;
+            margin-left:-1rem;
+        }
+    }
+    
 }
 
 

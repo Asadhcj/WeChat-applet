@@ -197,32 +197,46 @@ select {
   text-align: center;
   line-height: 1rem;
 }
-.searchbox {
-  width: 6.9rem;
-  height: .72rem;
-  margin: .17rem auto;
-  background: url(../../img/registered/searchbg.png);
-  background-size: 6.9rem .72rem;
+.searchbg {
+  height: 1.05rem;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchbg .searchbox {
+  margin: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.searchbox .searchInput {
+.searchbg .searchbox .searchInput {
+  width: 5.97rem;
+  height: .64rem;
+  background: #f0f0f0;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
-.searchbox .searchInput .searchicon {
+.searchbg .searchbox .searchInput .searchInput-left .searchicon {
   color: #999;
   font-size: .31rem;
   padding: 0 .06rem 0 .27rem;
 }
-.searchbox .searchInput input {
+.searchbg .searchbox .searchInput .searchInput-left input {
   background: #f0f0f0;
 }
-.searchbox .searchbtn {
+.searchbg .searchbox .searchInput .deleteicon {
+  font-weight: 300;
+  margin-right: .28rem;
+  color: #999;
+}
+.searchbg .searchbox .searchbtn {
   border: none;
   background: #fff;
-  margin-right: .45rem;
+  color: #61ade2;
+  font-size: .35rem;
+  margin-left: .2rem;
 }
 .online {
   display: flex;

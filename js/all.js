@@ -17,5 +17,12 @@
             $(".buildCard").toggleClass("select");    
             $(".bindingCard").toggleClass("select");
         });
+        // 输入框事件，获取焦点显示删除按钮
+        $(".search").on("focus",function(){
+            $(".deleteicon").css("display","block")
+        });
+        $(".search").on("blur",function(){
+            $(".deleteicon").css("display","none")
+        });
     })
 })(jQuery)

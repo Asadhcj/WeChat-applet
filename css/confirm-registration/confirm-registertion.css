@@ -1,49 +1,31 @@
 .patient {
   margin-top: .2rem;
 }
-.payStyle {
-  margin: .2rem 0 .42rem 0;
+.payInfo {
+  height: 2.57rem;
+  width: 100%;
+  background: #fff;
+  margin-bottom: .23rem;
 }
-.payStyle .patientInfo {
-  height: .9rem;
+.payInfo .paytime {
+  line-height: .58rem;
+  background: #f79841;
+  color: #fff;
+  text-align: center;
+  font-size: .24rem;
 }
-.payStyle .patientInfo .patientInfo-left {
+.payInfo .payprice {
   display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
+  height: 1.99rem;
 }
-.payStyle .patientInfo .patientInfo-left .WeChat-icon,
-.payStyle .patientInfo .patientInfo-left .payTreasure-icon,
-.payStyle .patientInfo .patientInfo-left .unionpay-icon {
-  display: inline-block;
-  width: .52rem;
-  height: .52rem;
-  background: url(../../img/registered/wechat.png);
-  background-size: .52rem .52rem;
-  margin-right: .2rem;
-}
-.payStyle .patientInfo .patientInfo-left .payTreasure-icon {
-  background: url(../../img/registered/wechat.png);
-  background-size: .52rem .52rem;
-}
-.payStyle .patientInfo .patientInfo-left .unionpay-icon {
-  display: inline-block;
-  width: .64rem;
-  height: .42rem;
-  background: url(../../img/registered/unionpay.png);
-  background-size: .64rem .42rem;
-}
-.payStyle .patientInfo .unionpay,
-.payStyle .patientInfo .payTreasure,
-.payStyle .patientInfo .WeChat {
-  display: inline-block;
-  width: .4rem;
-  height: .3rem;
-}
-.payStyle .patientInfo .select {
-  background: url(../../img/registered/checkPaystyle.png);
-  background-size: .4rem .3rem;
+.payInfo .payprice .payprice-num {
+  font-size: .52rem;
+  color: #f79841;
 }
 .checkpay {
-  margin-top: 0;
-  margin-bottom: .35rem;
+  margin-top: .58rem;
+  margin-bottom: 0;
 }

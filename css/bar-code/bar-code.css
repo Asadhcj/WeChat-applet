@@ -1,19 +1,14 @@
 body {
   background: #fff;
 }
-body .image {
-  text-align: center;
-  margin-top: 1.22rem;
-}
-body .image img {
-  width: 1.15rem;
-  height: 1.15rem;
-}
 body .barcode {
   width: 4.34rem;
   height: 1.47rem;
-  margin: 0 auto;
-  margin-top: .81rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -2.17rem;
+  margin-top: -0.73rem;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -21,9 +16,27 @@ body .barcode {
   align-items: center;
 }
 body .barcode .barcodeImg {
+  overflow: initial !important;
   margin-bottom: .36rem;
 }
 body .wid {
   width: .2rem;
   display: none;
+}
+body .barcode2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+}
+body .barcode2 .barcodeImg2 {
+  transform: rotate(90deg);
+  width: .6rem;
+  height: 3rem;
+  position: absolute;
+  top: 50%;
+  margin: 0 auto;
+  margin-top: -1.5rem;
+  margin-left: -1rem;
 }

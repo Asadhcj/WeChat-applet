@@ -15,12 +15,17 @@
     <div class="tabbar">
         科室一
     </div>
-    <div class="searchbox">
-        <div class="searchInput">
-            <span class="searchicon glyphicon glyphicon-search"></span>
-            <input type="text" placeholder="请输入科室或医生名字">
+    <div class="searchbg">
+        <div class="searchbox">
+            <div class="searchInput">
+                <div class="searchInput-left">
+                    <span class="searchicon glyphicon glyphicon-search"></span>
+                    <input type="text" class="search" placeholder="请输入科室或医生名字">
+                </div>
+                <span class="deleteicon glyphicon glyphicon-remove" style="display: none"></span>
+            </div>
+            <button class="searchbtn">搜索</button>
         </div>
-        <button class="searchbtn">搜索</button>
     </div>
     <ul>
         <li>
@@ -98,5 +103,5 @@
 <script src="../lib/js/jquery-3.4.1.min.js"></script>
 <script src="../lib/js/bootstrap.min.js"></script>
 <script src="../js/rem.js"></script>
-
+<script src="../js/all.js"></script>
 </html>

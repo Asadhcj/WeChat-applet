@@ -15,6 +15,17 @@
     <div class="tabbar">
         确认挂号信息
     </div>
+    <div class="payInfo">
+        <div class="paytime">
+            <span class="paytime-txt">剩余支付时间</span>
+            <span class="paytime-min">15</span>:
+            <span class="paytime-sec">00</span>
+        </div>
+        <div class="payprice">
+            <span class="payprice-txt">支付金额(元)</span>
+            <span class="payprice-num">8.00</span>
+        </div>
+    </div>
     <div class="patientList">
         <ul>
             <li>
@@ -34,13 +45,6 @@
                 <span>2019/03/18 10:00-12:00</span>
             </li>
         </ul>
-        <div class="costDetail">
-            <span>挂号费</span>
-            <div class="checkDetails">
-                <span>10.00元</span>
-                <!-- <span class="costDetail-icon"></span> -->
-            </div>
-        </div>
     </div>
     <div class="patient">
         <div class="checked-patient">
@@ -58,34 +62,8 @@
             <span class="glyphicon glyphicon-menu-right iconRight"></span>
         </div>
     </div>
-    <div class="payStyle">
-        <div class="checked-patient">
-            选择支付方式
-        </div>
-        <div class="patientInfo">
-            <div class="patientInfo-left">
-                <span class="WeChat-icon"></span>
-                <span class="WeChat-txt">微信支付</span>
-            </div>
-            <span class="WeChat select"></span>
-        </div>
-        <!-- <div class="patientInfo">
-            <div class="patientInfo-left">
-                <span class="payTreasure-icon"></span>
-                <span class="payTreasure-txt">支付宝支付</span>
-            </div>
-            <span class="payTreasure"></span>
-        </div> -->
-        <div class="patientInfo">
-            <div class="patientInfo-left">
-                <span class="unionpay-icon"></span>
-                <span class="unionpay-txt">银联支付</span>
-            </div>
-            <span class="unionpay"></span>
-        </div>
-    </div>
     <div class="backBtn checkpay">
-        确定支付
+        微信支付
      </div>
 </body>
 <script src="../lib/js/jquery-3.4.1.min.js"></script>

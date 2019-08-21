@@ -26,28 +26,22 @@ body .doctorInfo .doctor-txt .doctor-introduce .doctor-name {
 body .doctorInfo .doctor-txt .doctor-registration {
   margin-top: .1rem;
 }
-body .doctorInfo .doctor-txt .doctor-Source {
-  color: #ee1f09;
-}
-body .doctorInfo .collection {
-  width: 1rem;
+body .doctorInfo .Residual-numAmount {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
-body .doctorInfo .collection .collection-icon {
-  display: block;
-  width: .28rem;
-  height: .28rem;
-  background: url(../../img/registered/nocollection.png);
-  background-size: .28rem .28rem;
+body .doctorInfo .Residual-numAmount .Residual-num {
+  color: #333;
 }
-body .doctorInfo .collection .collectioned {
-  background: url(../../img/registered/Collectioned.png);
-  background-size: .28rem .28rem;
-}
-body .doctorInfo .collection .collection-txt {
-  color: #999;
-  font-size: .16rem;
+body .doctorInfo .Residual-numAmount .Residual-amount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: .74rem;
+  height: .34rem;
+  margin-left: .06rem;
+  color: #fff;
+  font-size: .21rem;
+  background: url(../../img/pricetip.jpg);
+  background-size: .74rem .34rem;
 }

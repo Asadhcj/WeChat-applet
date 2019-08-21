@@ -198,33 +198,52 @@ select{ background: none }
     }
 }
 // 科室输入框
-.searchbox{
-    width:6.9rem;
-    height: .72rem;
-    margin:.17rem auto;
-    background: url(../../img/registered/searchbg.png);
-    background-size: 6.9rem .72rem;
+.searchbg {
+    height: 1.05rem;
+    background: #fff;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    .searchInput{
+    .searchbox{
+        margin:0;
+        // background: url(../../img/registered/searchbg.png);
+        // background-size: 6.9rem .72rem;
         display: flex;
+        justify-content: space-between;
         align-items: center;
-        .searchicon{
-            color:#999;
-            font-size:.31rem;
-            padding: 0 .06rem 0 .27rem;
-         }
-         input{
-             background:#f0f0f0;
-         }
-    }
-    .searchbtn{
-        border:none;
-        background: #fff;
-        margin-right: .45rem;
+        .searchInput{
+            width:5.97rem;
+            height: .64rem;
+            background:#f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .searchInput-left{
+                .searchicon{
+                    color:#999;
+                    font-size:.31rem;
+                    padding: 0 .06rem 0 .27rem;
+                 }
+                 input{
+                     background:#f0f0f0;
+                 }
+            }
+             .deleteicon{
+                font-weight: 300;
+                margin-right: .28rem;
+                color:#999;
+             }
+        }
+        .searchbtn{
+            border:none;
+            background: #fff;
+            color:#61ade2;
+            font-size:.35rem;
+            margin-left:.2rem;
+        }
     }
 }
+
 // tab栏切换
 .online{
     // box-sizing: border-box;
